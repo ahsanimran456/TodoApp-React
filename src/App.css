@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+}
+
+.header{
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MuiFormLabel-root{
+  color: red !important;
+}
+
+.MuiFormLabel-root:focus{
+  color: Green !important;
+}
+.addicon{
+  color: green;
+  font-size: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.eachitems{
+  display: flex;
+  justify-content: space-around;
+margin: 10px 0;
+}
+.eachitems span{
+  font-weight: 700;
+  
+}
+.Deleteicon{
+  color: red;
+  font-size: 25px;
+  cursor: pointer;
+}
